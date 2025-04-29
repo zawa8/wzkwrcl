@@ -147,3 +147,63 @@ export const kannadaonlyw8utf = localFont({ src: "./fonts/hscii/onlyw8/onlyw8utf
 export const malayalamonlyw8utf = localFont({ src: "./fonts/hscii/onlyw8/onlyw8utf/malayalamonlyw8utf.woff2", display: "swap", });
 export const sinhalaonlyw8utf = localFont({ src: "./fonts/hscii/onlyw8/onlyw8utf/sinhalaonlyw8utf.woff2", display: "swap", });
 //////////////////////////////onlyw8 up }>>>>>>>>>>>>>>>>>>>>
+export const allhfonts = {
+	"binarywenglosoftw8asc":binarywenglosoftw8asc, "heksenglosoftw8asc":heksenglosoftw8asc,
+//////~~~~~~~~~~~~~~englosoftw8 bilo
+////////////////////////////// { englosoftw8 asc bilo <<<<<<<<<<<<<<<<<<<<
+	"inglishenglosoftw8asc":inglishenglosoftw8asc, "russianenglosoftw8asc":russianenglosoftw8asc, "koreanenglosoftw8asc":koreanenglosoftw8asc,	
+	"teluguenglosoftw8asc":teluguenglosoftw8asc, "kannadaenglosoftw8asc":kannadaenglosoftw8asc,
+	"tamilenglosoftw8asc":tamilenglosoftw8asc, "malayalamenglosoftw8asc":malayalamenglosoftw8asc, "sinhalaenglosoftw8asc":sinhalaenglosoftw8asc, 
+	"hindienglosoftw8asc":hindienglosoftw8asc, "gurmukhienglosoftw8asc":gurmukhienglosoftw8asc, "guzratienglosoftw8asc":guzratienglosoftw8asc,
+	"banglaenglosoftw8asc":banglaenglosoftw8asc, "oriyaenglosoftw8asc":oriyaenglosoftw8asc,
+////////////////////////////// { englosoftw8 mono bilo <<<<<<<<<<<<<<<<<<<<
+	"inglishenglosoftw8mono":inglishenglosoftw8mono, "russianenglosoftw8mono":russianenglosoftw8mono, "koreanenglosoftw8mono":koreanenglosoftw8mono,	
+	"teluguenglosoftw8mono":teluguenglosoftw8mono, "kannadaenglosoftw8mono":kannadaenglosoftw8mono,
+	"tamilenglosoftw8mono":tamilenglosoftw8mono, "malayalamenglosoftw8mono":malayalamenglosoftw8mono, "sinhalaenglosoftw8mono":sinhalaenglosoftw8mono, 
+	"hindienglosoftw8mono":hindienglosoftw8mono, "gurmukhienglosoftw8mono":gurmukhienglosoftw8mono, "guzratienglosoftw8mono":guzratienglosoftw8mono,
+	"banglaenglosoftw8mono":banglaenglosoftw8mono, "oriyaenglosoftw8mono":oriyaenglosoftw8mono,
+////////////////////////////// { englosoftw8 utf bilo <<<<<<<<<<<<<<<<<<<<
+	"inglishenglosoftw8utf":inglishenglosoftw8utf, "russianenglosoftw8utf":russianenglosoftw8utf, "koreanenglosoftw8utf":koreanenglosoftw8utf,	
+	"teluguenglosoftw8utf":teluguenglosoftw8utf, "kannadaenglosoftw8utf":kannadaenglosoftw8utf,
+	"tamilenglosoftw8utf":tamilenglosoftw8utf, "malayalamenglosoftw8utf":malayalamenglosoftw8utf, "sinhalaenglosoftw8utf":sinhalaenglosoftw8utf, 
+	"hindienglosoftw8utf":hindienglosoftw8utf, "gurmukhienglosoftw8utf":gurmukhienglosoftw8utf, "guzratienglosoftw8utf":guzratienglosoftw8utf,
+	"banglaenglosoftw8utf":banglaenglosoftw8utf, "oriyaenglosoftw8utf":oriyaenglosoftw8utf,
+//////~~~~~~~~~~~~~~englodotw8 bilo
+////////////////////////////// { englodotw8 asc bilo <<<<<<<<<<<<<<<<<<<<
+	"inglishenglodotw8asc":inglishenglodotw8asc, "russianenglodotw8asc":russianenglodotw8asc, "koreanenglodotw8asc":koreanenglodotw8asc,	
+	"teluguenglodotw8asc":teluguenglodotw8asc, "kannadaenglodotw8asc":kannadaenglodotw8asc,
+	"tamilenglodotw8asc":tamilenglodotw8asc, "malayalamenglodotw8asc":malayalamenglodotw8asc, "sinhalaenglodotw8asc":sinhalaenglodotw8asc, 
+	"hindienglodotw8asc":hindienglodotw8asc, "gurmukhienglodotw8asc":gurmukhienglodotw8asc, "guzratienglodotw8asc":guzratienglodotw8asc,
+	"banglaenglodotw8asc":banglaenglodotw8asc, "oriyaenglodotw8asc":oriyaenglodotw8asc,
+////////////////////////////// { englodotw8 mono bilo <<<<<<<<<<<<<<<<<<<<
+	"inglishenglodotw8mono":inglishenglodotw8mono, "russianenglodotw8mono":russianenglodotw8mono, "koreanenglodotw8mono":koreanenglodotw8mono,	
+	"teluguenglodotw8mono":teluguenglodotw8mono, "kannadaenglodotw8mono":kannadaenglodotw8mono,
+	"tamilenglodotw8mono":tamilenglodotw8mono, "malayalamenglodotw8mono":malayalamenglodotw8mono, "sinhalaenglodotw8mono":sinhalaenglodotw8mono, 
+	"hindienglodotw8mono":hindienglodotw8mono, "gurmukhienglodotw8mono":gurmukhienglodotw8mono, "guzratienglodotw8mono":guzratienglodotw8mono,
+	"banglaenglodotw8mono":banglaenglodotw8mono, "oriyaenglodotw8mono":oriyaenglodotw8mono,
+////////////////////////////// { englodotw8 utf bilo <<<<<<<<<<<<<<<<<<<<
+	"inglishenglodotw8utf":inglishenglodotw8utf, "russianenglodotw8utf":russianenglodotw8utf, "koreanenglodotw8utf":koreanenglodotw8utf,	
+	"teluguenglodotw8utf":teluguenglodotw8utf, "kannadaenglodotw8utf":kannadaenglodotw8utf,
+	"tamilenglodotw8utf":tamilenglodotw8utf, "malayalamenglodotw8utf":malayalamenglodotw8utf, "sinhalaenglodotw8utf":sinhalaenglodotw8utf, 
+	"hindienglodotw8utf":hindienglodotw8utf, "gurmukhienglodotw8utf":gurmukhienglodotw8utf, "guzratienglodotw8utf":guzratienglodotw8utf,
+	"banglaenglodotw8utf":banglaenglodotw8utf, "oriyaenglodotw8utf":oriyaenglodotw8utf,
+//////~~~~~~~~~~~~~~onlyw8 bilo
+////////////////////////////// { onlyw8 asc bilo <<<<<<<<<<<<<<<<<<<<
+	"inglishonlyw8asc":inglishonlyw8asc, "russianonlyw8asc":russianonlyw8asc, "koreanonlyw8asc":koreanonlyw8asc,	
+	"teluguonlyw8asc":teluguonlyw8asc, "kannadaonlyw8asc":kannadaonlyw8asc,
+	"tamilonlyw8asc":tamilonlyw8asc, "malayalamonlyw8asc":malayalamonlyw8asc, "sinhalaonlyw8asc":sinhalaonlyw8asc, 
+	"hindionlyw8asc":hindionlyw8asc, "gurmukhionlyw8asc":gurmukhionlyw8asc, "guzrationlyw8asc":guzrationlyw8asc,
+	"banglaonlyw8asc":banglaonlyw8asc, "oriyaonlyw8asc":oriyaonlyw8asc,
+////////////////////////////// { onlyw8 mono bilo <<<<<<<<<<<<<<<<<<<<
+	"inglishonlyw8mono":inglishonlyw8mono, "russianonlyw8mono":russianonlyw8mono, "koreanonlyw8mono":koreanonlyw8mono,	
+	"teluguonlyw8mono":teluguonlyw8mono, "kannadaonlyw8mono":kannadaonlyw8mono,
+	"tamilonlyw8mono":tamilonlyw8mono, "malayalamonlyw8mono":malayalamonlyw8mono, "sinhalaonlyw8mono":sinhalaonlyw8mono, 
+	"hindionlyw8mono":hindionlyw8mono, "gurmukhionlyw8mono":gurmukhionlyw8mono, "guzrationlyw8mono":guzrationlyw8mono,
+	"banglaonlyw8mono":banglaonlyw8mono, "oriyaonlyw8mono":oriyaonlyw8mono,
+////////////////////////////// { onlyw8 utf bilo <<<<<<<<<<<<<<<<<<<<
+	"inglishonlyw8utf":inglishonlyw8utf, "russianonlyw8utf":russianonlyw8utf, "koreanonlyw8utf":koreanonlyw8utf,	
+	"teluguonlyw8utf":teluguonlyw8utf, "kannadaonlyw8utf":kannadaonlyw8utf,
+	"tamilonlyw8utf":tamilonlyw8utf, "malayalamonlyw8utf":malayalamonlyw8utf, "sinhalaonlyw8utf":sinhalaonlyw8utf, 
+	"hindionlyw8utf":hindionlyw8utf, "gurmukhionlyw8utf":gurmukhionlyw8utf, "guzrationlyw8utf":guzrationlyw8utf,
+	"banglaonlyw8utf":banglaonlyw8utf, "oriyaonlyw8utf":oriyaonlyw8utf,
+}
