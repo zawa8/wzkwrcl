@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { SetStateAction, useState } from 'react';
+import {  useState } from 'react';
 import {Textarea} from "@heroui/input";
 import {Button} from "@heroui/button";
 import wzk from "wzk";
@@ -18,33 +18,28 @@ steps to use : 1. pls replace ԃis tekst to indiα/nepαl/sinhl/bαnglα.
 1.1 to copy unicode google search : wiki indiα in indian languages
 2. pls press eu2i btn.
 3. result : tekst areα down.`;	
-  const wzktr = new wzk();
+  const wzktr = new wzk("","both","all");
   const [iteksta, set_iteksta] = useState("");
   const handle_ita_change = (event) => { set_iteksta(event.target.value); };
   function on_kh2uK() {
-	  let all_output  = wzktr.kh2hindiK(iteksta);
+	  let all_output  = wzk.kh2hindiK(iteksta);
 	  set_iteksta(all_output);
   }
   function on_xvjqK2u() {
-	  let all_output  = wzktr.xvjqK2hindi(iteksta);
+	  let all_output  = wzk.xvjqK2hindi(iteksta);
 	  set_iteksta(all_output);
   }
   function on_eu2l() {  //alert("on_eu2l");
-    let ioft= { i: iteksta, f: "both", t: "all",
-		o: {
-		  inglish: "", korean: "", russian: "", hindi: "", bangla: "", gurmukhi: "", guzrati: "",
-		  oriya: "", tamil: "", kannada: "", telugu: "", malayalam:"", sinhala:"",
-		},
-    };
-    wzktr.ioft_tr(ioft);
+    wzktr.istr = iteksta;
+    wzktr.duztr();
     let all_output  = "";
-    Object.keys(ioft.o).forEach(key => {
-      all_output += `modern_${key}: ` + ioft.o[key] + " \n" ;
-    });
+    for (const key in wzktr.odikt) {
+      all_output += `modern_${key}: ` + wzktr.odikt[key] + " \n" ;
+    }
     set_iteksta(all_output);
 }
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-20 gap-16 sm:p-20 ]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
       <div className="flex gap-4 items-center flex-col sm:flex-row"><Hsciifontpicker/></div>
         <div className="flex gap-2 items-center flex-col sm:flex-row">
@@ -54,7 +49,7 @@ steps to use : 1. pls replace ԃis tekst to indiα/nepαl/sinhl/bαnglα.
 			<a className="border-black border-2" href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer" > free hscii fonts </a>
         </div>
         <div className="flex min-w-full gap-2 items-center flex-col sm:flex-row">
-          <Textarea id="ita"  rows={12} className="min-w-full border-black" value={iteksta}  onChange={handle_ita_change} placeholder={iplaceholer} />
+          <Textarea id="ita"  rows={12} className="w-full border-black" value={iteksta}  onChange={handle_ita_change} placeholder={iplaceholer} />
         </div>
       </main>
     </div>

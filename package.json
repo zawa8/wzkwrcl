@@ -16,7 +16,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-select": "^5.10.1",
-    "wzk": "^1.0.6"
+    "wzk": "1.0.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
